@@ -1,4 +1,6 @@
+#####################################
 # Preparation of synctag metadata
+#####################################
 
 # Institute: Institute for Agriculture, Fisheries and Food Research (ILVO)
 # Author: Jolien Buyse - jolien.buyse@ilvo.vlaanderen.be
@@ -94,12 +96,6 @@ sync_det[,epo:=floor(epo)]
 
 sync_det_time <- sync_det[ts %between% c("2020-06-17", "2020-10-12")]
 
-## Load in hydros and make list with synctag detections
+write.csv(sync_det_time, "sync_det_time.csv", row.names = FALSE)
 
-hydros <- read_csv("./data/hydros.csv")
-hydros <- as.data.table(hydros)
-
-## Create list with sync tag detections and hydrophone metadata
-
-bel <- list(detections=sync_det_time, hydros=hydros)
 

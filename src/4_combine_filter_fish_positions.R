@@ -36,11 +36,11 @@ all_positions <- lapply(transmitters, function(transmitter){
   
   print(paste0('Start: ', transmitter))
   
-  Det1 <- read.csv(paste0("C:/Users/jbuyse/OneDrive - ILVO/Development/RStudio/D1SCI/AMK/phd_jolienbuyse/Detectionspertag/T",transmitter,"/T",transmitter,"_alldetections.csv"))
-  Det2 <- read.csv(paste0("C:/Users/jbuyse/OneDrive - ILVO/Development/RStudio/D1SCI/AMK/phd_jolienbuyse/Detectionspertag/T",transmitter,"/T",transmitter,"_alldetections_2.csv"))
-  Det3 <- read.csv(paste0("C:/Users/jbuyse/OneDrive - ILVO/Development/RStudio/D1SCI/AMK/phd_jolienbuyse/Detectionspertag/T",transmitter,"/T",transmitter,"_alldetections_3.csv"))
-  Det4 <- read.csv(paste0("C:/Users/jbuyse/OneDrive - ILVO/Development/RStudio/D1SCI/AMK/phd_jolienbuyse/Detectionspertag/T",transmitter,"/T",transmitter,"_alldetections_4.csv"))
-  Det5 <- read.csv(paste0("C:/Users/jbuyse/OneDrive - ILVO/Development/RStudio/D1SCI/AMK/phd_jolienbuyse/Detectionspertag/T",transmitter,"/T",transmitter,"_alldetections_5.csv"))
+  Det1 <- read.csv(paste0("./T",transmitter,"/T",transmitter,"_alldetections.csv"))
+  Det2 <- read.csv(paste0("./T",transmitter,"/T",transmitter,"_alldetections_2.csv"))
+  Det3 <- read.csv(paste0("./T",transmitter,"/T",transmitter,"_alldetections_3.csv"))
+  Det4 <- read.csv(paste0("./T",transmitter,"/T",transmitter,"_alldetections_4.csv"))
+  Det5 <- read.csv(paste0("./T",transmitter,"/T",transmitter,"_alldetections_5.csv"))
   
   Detlist <- list(Det1,Det2,Det3,Det4,Det5)
   names(Detlist) <- c('Det1','Det2','Det3','Det4','Det5')

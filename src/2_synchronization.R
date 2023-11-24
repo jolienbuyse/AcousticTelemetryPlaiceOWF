@@ -1,7 +1,8 @@
-##########################################
-# Development of synchronisation model 
-##########################################
+#########################################################
+# Development and application of synchronization model 
+#########################################################
 
+# Project: Acoustic telemetry analysis of plaice within an offshore wind farm (Belwind, BE)
 # Institute: Institute for Agriculture, Fisheries and Food Research (ILVO)
 # Author: Jolien Buyse - jolien.buyse@ilvo.vlaanderen.be
 

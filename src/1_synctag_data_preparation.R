@@ -2,6 +2,7 @@
 # Preparation of synctag metadata
 #####################################
 
+# Project: Acoustic telemetry analysis of plaice within an offshore wind farm (Belwind, BE)
 # Institute: Institute for Agriculture, Fisheries and Food Research (ILVO)
 # Author: Jolien Buyse - jolien.buyse@ilvo.vlaanderen.be
 # Source: Adapted from https://github.com/baktoft/yaps

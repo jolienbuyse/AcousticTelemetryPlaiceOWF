@@ -19,9 +19,10 @@ The raw data underlying the analyses can be found in the folder `/data`.
 
 #### Scripts
 
-1. `1_synctag_Data_preparation.R`: Prepare built-in sync tag metadata for development of synchronization model
-2. `2_detection_data_preparation.R`: Prepare built-in sync detections for development of synchronization model
-3. `3_synchronisation.R`: Develop the synchronization model and synchronize all the detection data 
-4. `4_detection_data_analysis.R` 
+1. `1_synctag_Data_preparation.R`: Prepare built-in sync tag metadata and detections for development of synchronization model
+2. `2_synchronization.R`: Develop and apply synchronization model to all detections
+3. `3_estimating_positions_with_yaps.R`: Apply yaps for estimating the positions of the fish
+4. `4_combine_filter_fish_positions.R`: Combine and filter the estimated fish positions of the different time bins
+5. `5_distance_to_turbine_analysis_.R`: Apply GAMM to distance to the turbine data 
 
-
+`FT_sync_model_KR_50_entireperiod_withiteration`: Final synchronization model used for syncing all detections
